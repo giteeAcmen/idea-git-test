@@ -28,5 +28,9 @@ public class PersonController {
         System.out.println(new Person("赵六","22","男"));
         return "person";
     }
+
+    public static void main(String[] args) {
+        System.out.println("张三是一个男孩");
+    }
 }
 
