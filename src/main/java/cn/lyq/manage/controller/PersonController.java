@@ -19,12 +19,14 @@ public class PersonController {
 
     @RequestMapping("/html")
     public String getHtml(Map<String,Person> map){
-       map.put("a",new Person("张三","20","男"));
-       map.put("b",new Person("李四","21","男"));
-       map.put("c",new Person("王五","22","女"));
-       map.put("d",new Person("王五","25","女"));
-       map.put("e",new Person("as","25","女"));
+        map.put("a",new Person("张三","20","男"));
+        map.put("b",new Person("李四","21","男"));
+        map.put("c",new Person("王五","22","女"));
+        map.put("d",new Person("王五","25","女"));
+        map.put("d",new Person("王liu","25","女"));
+        map.put("e",new Person("as","25","女"));
         System.out.println(new Person("赵六","22","男"));
         return "person";
     }
 }
+
