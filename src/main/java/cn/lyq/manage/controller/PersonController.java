@@ -23,6 +23,7 @@ public class PersonController {
        map.put("b",new Person("李四","21","男"));
        map.put("c",new Person("王五","22","女"));
        map.put("d",new Person("王五","25","女"));
+       map.put("d",new Person("李留","25","女"));
         System.out.println(new Person("赵六","22","男"));
         return "person";
     }
