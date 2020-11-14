@@ -10,6 +10,6 @@ public class PersonService {
 
         System.out.println("给git添加一个类!");
 
-        System.out.println("给你合并了");
+        System.out.println("给你合并了!");
     }
 }
